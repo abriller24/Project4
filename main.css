@@ -7,16 +7,63 @@ body{
 }
 
 #container{
-	width:900px;
+	width:1000px;
 	margin:0 auto;
 }
-header{
+header {
 	width:100%;
 	height: 100px;
+	text-align: center;
 }
-header h2{
-	font-size: 55px;
+header h1{
+	font-size: 60px;
 	font-family: ganache,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color:#20BC80;
+}
+nav{
+	width:100%;
+	text-align: center;
+	font-size: 17px
+}
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+nav li{
+	display:inline;
+	margin: 10px;
+}
+nav a:visited{
+	color:#33A463;
+}
+nav a:hover{
+	color:#475051;
+}
+nav a:active{
+	color: #2E2E2E;
+}
+.left{
+	float:left;
+	width:400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.right{
+	float:left;
+	width:400px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+}
+footer{
+	clear: both;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	height:50px;
 }
