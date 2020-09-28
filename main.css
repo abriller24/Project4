@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	
-	
+	background: url("Photos/background.jpg") no-repeat;
+	background-size: cover
 	
 }
 
